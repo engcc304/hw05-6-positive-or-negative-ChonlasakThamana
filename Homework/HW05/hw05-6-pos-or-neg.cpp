@@ -16,3 +16,23 @@
         Negative
 
 */
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    // รับค่าจากผู้ใช้
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    // ตรวจสอบว่าเป็นจำนวนเต็มบวก หรือ จำนวนเต็มลบ หรือ ศูนย์
+    if (num > 0) {
+        printf("Positive\n");
+    } else if (num < 0) {
+        printf("Negative\n");
+    } else {
+        printf("Zero\n");
+    }
+
+    return 0;
+}
