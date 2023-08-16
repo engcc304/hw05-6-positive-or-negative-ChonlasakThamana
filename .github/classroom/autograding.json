@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW05/hw05-6-pos-or-neg.cpp",
+      "run": "./a.out",
+      "input": "49",
+      "output": "Positive",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW05/hw05-6-pos-or-neg.cpp",
+      "run": "./a.out",
+      "input": "-90",
+      "output": "Negative",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
